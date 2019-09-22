@@ -1,0 +1,40 @@
+.projects-header
+{
+	text-align: center;
+	padding-top: 35px;
+	font-family: Century Gothic;
+}
+
+.projects-images
+{
+	margin-top: 50px;
+	width: 500px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+.projects-names
+{
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	color: blue;
+	font-family: Avenir;
+}
+
+.logo
+{
+	height: 50px;
+	margin-left: 80px; 
+	 
+	position: absolute;
+	
+}

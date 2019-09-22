@@ -1,0 +1,53 @@
+body, html {
+	height: 100%;
+	margin:0;
+}
+
+#uav-nav {
+	background-color: black !important;
+}
+
+.navbar-header
+{
+	color: red;
+}
+
+.nav-link{
+	color: white;
+}
+
+.navbar-brand
+{
+	color: red;
+}
+
+/* replace uav_.jpeg with actual image file */
+
+#homeDiv
+{
+	height: 100%;
+	background-image: url(../images/uav_.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+.nav-link:hover {
+  text-decoration: none !important;
+  color: red;
+}
+
+.active
+{
+	color: red;
+}
+
+.contact-details
+{
+	font-family: Lato;
+}

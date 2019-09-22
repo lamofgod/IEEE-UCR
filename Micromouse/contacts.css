@@ -1,0 +1,69 @@
+body, html {
+	height: 100%;
+	margin:0;
+}
+
+#micromouse-nav {
+	background-color: black !important;
+}
+
+.navbar-header
+{
+	color: red;
+}
+
+.nav-link{
+	color: white;
+}
+
+.navbar-brand
+{
+	color: red;
+}
+
+#homeDiv
+{
+	height: 100%;
+	background-image: url(images/micromouse_.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+.nav-link:hover {
+  text-decoration: none !important;
+  color: red;
+}
+
+.active
+{
+	color: red;
+}
+
+
+#leads-text
+{
+	text-align: center;
+}
+
+hr
+{
+	width: 50%;
+	height: 20px;
+}
+
+.contact-names
+{
+    text-align: center;
+    margin-top: 300px;
+}
+
+#header-align
+{
+    margin-left: 30px;
+}

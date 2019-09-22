@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EE1B Parts Page</title>
+    
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="parts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century+Gothic"/>
+
+
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body> 
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-light" id="home-nav">
+        <div class="navbar header" id="home-header">
+            <a href="../index.html" class="navbar-brand">IEEE @ UCR</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="collapse-button" class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav">
+                <li class="nav-item" class="dropdown">
+                    <a href="about.html">
+                        <div class="nav-link" id="homelink">ABOUT</div>
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="members.html">
+                        <div class="nav-link" id="aboutlink">MEMBERS</div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                	<a href="parts.html">
+                		<div class="nav-link active" id="partsLink">PARTS</div>
+                	</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html">
+                        <div class="nav-link" id="faqlink">PROJECTS</div>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="events.html">
+                        <div class="nav-link" id="contactlink">EVENTS</div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--NAVBAR END-->
+
+
+    <h2 class="class-parts-header">EE 10 Kit Contents</h2>
+    <h4 class="resistor-chart">Resistor Chart</h4>
+    <img src="resistor_chart.jpg" class="resistor-chart">
+
+    <!--KIT CONTENTS-->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col" class="table-width">Resistors</th>
+                <th scope="col" class="table-width">Capacitors</th>
+                <th scope="col" class="table-width">Potentiometers</th>
+                <th scope="col" class="table-width">Other</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!--ROW1-->
+            <tr>
+                <td>(2) 47 &Omega;</td>    
+                <td>(1) 820 pF</td>
+                <td>(1) 5 k&Omega;</td>
+                <td>(6) Rectifier Diode 1N914</td>
+            </tr>
+            <!--ROW2-->
+            <tr>
+                <td>(2) 100 &Omega;</td>
+                <td>(2) 47 &micro;F (Electrolytic)</td>
+                <td></td>
+                <td>(2) Op Amp LM741CN</td>
+            </tr>
+            <!--ROW3-->
+            <tr>
+                <td>(2) 1 k&Omega;</td>
+                <td></td>
+                <td></td>
+                <td>(2) MOSFET 2N7000</td>
+            </tr>
+            <!--ROW4-->
+            <tr>
+                <td>(2) 10 k&Omega;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!--ROW5-->
+            <tr>
+                <td>(2) 51 k&Omega;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
